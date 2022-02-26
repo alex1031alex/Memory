@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Formular";
+  font-weight: 500;
+  font-style: normal;
+  src: url("./fonts/Formular-Medium.woff2") format("woff2"),
+  url("./fonts/Formular-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Formular";
+  font-weight: 700;
+  font-style: normal;
+  src: url("./fonts/Formular-Bold.woff2") format("woff2"),
+  url("./fonts/Formular-Bold.woff") format("woff");
+}
+
+:root {
+  --color-blue: #0083fc;
+  --color-gray: #e5e5e5;
+
+  --container-width: 1040px;
+  --grid-gap: 14px;
+}
+
+* {
+  all: unset;
+  display: revert;
+}
+
+body {
+  font-family: 'Formular', sans-serif;
+  background-color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1040px;
+}
+
+/*.grid {*/
+/*  display: grid;*/
+/*  grid-template-columns: repeat(12, var(--grid-column-width));*/
+/*  gap: var(--grid-gap);*/
+/*}*/
