@@ -1,0 +1,35 @@
+.final-message {
+    position: absolute;
+    box-sizing: border-box;
+    top: 82px;
+    left: calc(50% - var(--message-width) / 2);
+    width: var(--message-width);
+    height: 372px;
+    padding-top: 66px;
+    padding-bottom: 30px;
+    background-color: var(--color-accent);
+    border-radius: 12px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.final-message__text {
+
+    line-height: 50px;
+}
+
+.final-message__button {
+    line-height: 10px;
+    display: block;
+    width: 343px;
+    padding: 26px 0;
+    margin: 0 auto;
+    background-color: var(--color-primary);
+    border-radius: 12px;
+}

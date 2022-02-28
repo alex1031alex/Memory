@@ -1,1 +1,29 @@
+.app {
+    margin: 0 auto;
+    padding: var(--top-margin) 20px 0 20px;
+    max-width: var(--container-width);
+    min-height: calc(100vh - var(--top-margin));
+    background-color: #ffffff;
+}
+
+.app__header {
+    margin-bottom: 80px;
+}
+
+.header__title {
+    font-family: "Formular", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-primary);
+    font-size: 50px;
+    line-height: 35px;
+    font-weight: 700;
+}
+
+.main__container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
 

@@ -1,0 +1,48 @@
+.card {
+    width: 115px;
+    height: 115px;
+    background-color: var(--color-primary);
+    background-image: url("../../images/reverse.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-1 {
+    background-color: var(--color-gray);
+    background-image: url("../../images/1.svg");
+}
+
+.card-2 {
+    background-color: var(--color-gray);
+    background-image: url("../../images/2.svg");
+}
+
+.card-3 {
+    background-color: var(--color-gray);
+    background-image: url("../../images/3.svg");
+}
+
+.card-4 {
+    background-color: var(--color-gray);
+    background-image: url("../../images/4.svg");
+}
+
+.card-5 {
+    background-color: var(--color-gray);
+    background-image: url("../../images/5.svg");
+}
+
+.card-6 {
+    background-color: var(--color-gray);
+    background-image: url("../../images/6.svg");
+}
+
+.card-7 {
+    background-color: var(--color-gray);
+    background-image: url("../../images/7.svg");
+}
+
+.card-8 {
+    background-color: var(--color-gray);
+    background-image: url("../../images/8.svg");
+}

@@ -1,0 +1,12 @@
+.attempts {
+    width: 190px;
+}
+
+.attempts__title {
+    text-align: center;
+}
+
+.attempts__counter {
+    display: block;
+    text-align: center;
+}

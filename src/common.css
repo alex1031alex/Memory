@@ -15,11 +15,13 @@
 }
 
 :root {
-  --color-blue: #0083fc;
+  --color-primary: #0083fc;
+  --color-accent: #ff5533;
   --color-gray: #e5e5e5;
 
   --container-width: 1040px;
-  --grid-gap: 14px;
+  --message-width: 690px;
+  --top-margin: 158px;
 }
 
 * {
@@ -29,15 +31,20 @@
 
 body {
   font-family: 'Formular', sans-serif;
-  background-color: #FFFFFF;
+  background-color: #e5e5e5;
   font-size: 24px;
   font-weight: 500;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0 20px;
-  max-width: 1040px;
+.title {
+  color: var(--color-primary);
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.counter {
+  color: var(--color-accent);
 }
 
 /*.grid {*/

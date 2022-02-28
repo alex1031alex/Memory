@@ -1,0 +1,12 @@
+.moves {
+    width: 190px;
+}
+
+.moves__title {
+    text-align: center;
+}
+
+.moves__counter {
+    display: block;
+    text-align: center;
+}

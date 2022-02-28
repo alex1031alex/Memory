@@ -1,0 +1,12 @@
+.table {
+    width: 505px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.table__cell {
+    min-width: 115px;
+    min-height: 115px;
+}
